@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.car-summary-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cost-quantity-container {
+  align-self: flex-end;
+  width: 60%;
+}
+.key-title {
+  font-size: 20px;
+  color: #616e7c;
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+.price-value {
+  font-size: 20px;
+  color: #171f46;
+  line-height: 1.5;
+
+}
+.quantity {
+  font-size: 15px;
+  margin-left: 0;
+  line-height: 1.5;
+  margin-top: 0;
+}
+.checkout-button {
+  background-color: #0b69ff;
+  font-size: 15px;
+  height: 36px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: bold;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .car-summary-container {
+    width: 30%;
+    align-self: flex-end;
+  }
+  .cost-quantity-container {
+    align-self: flex-start;
+  }
+  .key-title {
+    font-size: 20px;
+    color: #616e7c;
+  }
+  .price-value {
+    font-size: 20px;
+    color: #000000;
+  }
+  .quantity {
+    font-size: 15px;
+    margin-left: 0;
+  }
+  .checkout-button {
+    background-color: #0b69ff;
+    font-size: 15px;
+    height: 36px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+  }
+}
